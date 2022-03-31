@@ -30,20 +30,20 @@ You can use double splat operator `**` to unwrap hash as keyword arguments
 options = { a: 4 }
 default_options = { a: 2, b: 1}
 
-def keyword_difference(a: , b:)
+def keyword_substract(a: , b:)
   a - b
 end
 
-keyword_difference(**default_options)
+keyword_substract(**default_options)
 # => 1
 # But this will fail because its missing the b: key
-keyword_difference(options)
+keyword_substract(options)
 
 # You can merge in the default options
 # Note: You have to merge options into default to override the defaults
 options_with_default = default.merge(options) 
 
-keyword_difference(options_with_default)
+keyword_substract(options_with_default)
 # => 3
 ```
 
