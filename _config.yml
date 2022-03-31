@@ -21,11 +21,12 @@
 title: Akra Polska blog
 email: tomasz.buchta@akra.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Work in progress company blog
-url: "/akra-blog" # the base hostname & protocol for your site, e.g. http://example.com
+  Simple work in progress blog for Akra Polska company
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tomasz.buchta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
