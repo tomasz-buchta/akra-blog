@@ -2,6 +2,7 @@
 layout: post
 title:  "Ruby splat operator"
 date:   2022-03-17 09:33:15 +0100
+author_id: /authors/tomasz_buchta
 categories: til ruby
 ---
 
